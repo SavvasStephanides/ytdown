@@ -1,1 +1,1 @@
-docker run -it --rm -v $PWD:/output -w /output ytdown $1
+docker run -it --rm -v $PWD/output:/output -w /output ytdown $1 $2
